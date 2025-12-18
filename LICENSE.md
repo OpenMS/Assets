@@ -28,7 +28,3 @@ This license does not grant any rights to use OpenMS software code, patents, or 
 
 ### 5. Disclaimer
 The Assets are provided “as-is” without any warranties, express or implied, including but not limited to warranties of title, non-infringement, or fitness for a particular purpose.  
-
----
-
-**Summary:** You may use OpenMS logos in projects that use OpenMS code or are based on OpenMS, provided you don’t imply ownership or endorsement.
