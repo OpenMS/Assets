@@ -25,3 +25,14 @@ Example in a README:
 ```
 
 The desktop apps' loading screen draws the static marks with the same motion (`loading_logo` in an app's `settings.json`).
+
+## Animated OpenMS logo
+
+`logos/OpenMS-logo-animated-light.svg` (for light backgrounds) and `logos/OpenMS-logo-animated-dark.svg` (for dark backgrounds) play the desktop apps' loading animation: the baseline draws, the peaks grow out of it one after another, the letters fade in, a sheen passes over the peaks, and then the peaks keep moving. Like the marks above it is self-contained CSS in one vector file, works in an `<img>` tag, and stays still where the viewer asks for reduced motion.
+
+```html
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OpenMS/Assets/master/logos/OpenMS-logo-animated-dark.svg">
+  <img src="https://raw.githubusercontent.com/OpenMS/Assets/master/logos/OpenMS-logo-animated-light.svg" width="320" alt="OpenMS">
+</picture>
+```
